@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sqliteSharon</string>
+    <string-array name="tables">
+        <item>table 1</item>
+        <item>table 2</item>
+    </string-array>
+</resources>

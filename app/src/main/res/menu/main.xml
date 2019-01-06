@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/enterData"
+        android:title="Enter data"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/showData"
+        android:title="View the data"
+        android:orderInCategory="200" />
+
+    <item
+        android:id="@+id/credits"
+        android:title="Credits"
+        android:orderInCategory="300" />
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter data below for table1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/table1et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="The name of the home team"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/table1et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="The name of the guest team"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/table1addData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="addData1"
+        android:text="add" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter data below for table2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/table2et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="The name of the team"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/table2et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Number of victories of the team"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/table2et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Number of losses of the team"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/table2addData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="addData2"
+        android:text="add"/>
+
+</LinearLayout>
